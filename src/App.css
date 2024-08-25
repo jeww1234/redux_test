@@ -1,0 +1,39 @@
+.box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    
+}
+.head{
+    width: 50vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: aqua;
+    padding: 20px;
+}
+
+@media screen and (max-width:540px) {
+    .box{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+        
+    }
+    .head{
+        width: 25vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        background-color: aqua;
+        padding: 20px;
+        font-size: 2vh;
+    }
+    
+}
